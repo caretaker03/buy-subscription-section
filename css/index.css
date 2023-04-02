@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+    min-height: 150vh;
+    color: #171435;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 85%;
+    background-color: #F4F5FA;
+    padding: 80px 151px;
+    box-shadow: 0px 47px 57px -26px rgba(83, 83, 145, 0.14);
+    border-radius: 23px;
+}
+
+.container .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .main .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .main .head h1 {
+    width: 60%;
+    height: 80px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+
+.container .main .head p {
+    width: 713px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.container .main .content {
+    display: flex;
+    margin-top: 56px;
+}
+
+.container .main .content div {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 40px;
+    width: 285px;
+    height: 326px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.container .main .content .ice {
+    box-shadow: -20px -20px #FFFBEC;
+}
+
+.container .main .content .ice img {
+    width: 43.11px;
+    height: 30px;
+}
+
+.container .main .content .telia {
+    box-shadow: -20px -20px #F9ECFF;
+}
+
+.container .main .content .telia img {
+    width: 76px;
+    height: 30px;
+} 
+
+.container .main .content .telenor {
+    box-shadow: -20px -20px #ECEEFF;
+}
+
+.container .main .content .telenor img {
+    width: 76px;
+    height: 30px;
+} 
+
+.container .main .content div:not(:last-child) {
+    margin-right: 64px;
+}
+
+.container .main .content h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container .main .content p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container .main .content p span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container .main .content button {
+    width: 185px;
+    height: 56px;
+    background-color: #F4F5FA;
+    border: 1px solid #F0F0F6;
+    box-shadow: 0px 4px 0px #E7E7FB;
+    border-radius: 41px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.send button {
+    width: 212px;
+    height: 56px;
+    color: white;
+    background-color: #171435;
+    border-radius: 41px;
+    margin-top: 56px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-size: normal;
+    font-weight: 500;
+    border: none;
+}
+
+@media screen and (max-width: 1210px) {
+    .container {
+        width: 100%;
+    }
+
+    .container .main .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .main .head h1 {
+        margin-bottom: 10%;
+    }
+
+
+    .container .main .content div:not(:last-child) {
+        margin: auto;
+        margin-bottom: 15%;
+    }
+}
